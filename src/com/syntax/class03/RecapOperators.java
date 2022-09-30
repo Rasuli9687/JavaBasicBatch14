@@ -6,7 +6,7 @@ public class RecapOperators {
 		/*
 		 * Addition=> + subtraction => - Multiplication => * Division => / Modulus => %
 		 */
-		int number1 = 11; // 3 +3 +3 = 2
+		int number1 = 16; // 3 +3 +3 = 2
 		int number2 = 3;
 		System.out.println("Answer = " + number1 / number2); // diving number1 by number2
 		System.out.println("Remainder = " + number1 % number2);

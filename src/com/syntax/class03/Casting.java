@@ -4,7 +4,7 @@ public class Casting {
 
 	public static void main(String[] args) {
 		/*
-		 * type casting => type = data type casting= converting converting one data type
+		 * type casting => type = data type casting= converting one data type
 		 * to another
 		 * 
 		 */
@@ -14,7 +14,12 @@ public class Casting {
 		long box4 = 45454545; // slightly large box
 		float box5 = 414564545; // larger box
 		double box6 = 454545445; // largest
-		int number = (int) 15.2; // we can't store the decimal number in a box of type double
+		
+		
+		
+		
+		
+		int number = (int) 15; // we can't store the decimal number in a box of type double
 		System.out.println(number);
 		long smallerBox = (long) box2;
 		System.out.println(smallerBox);
@@ -26,6 +31,7 @@ public class Casting {
 		System.out.println(a);
 		int box9 = (int) box4;
 		System.out.println(box9);
+		
 
 	}
 

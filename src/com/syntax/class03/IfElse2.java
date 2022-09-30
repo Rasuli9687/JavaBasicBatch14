@@ -10,7 +10,7 @@ public class IfElse2 {
 		} else {
 			System.out.println("I should make something at home");
 		}
-		if (true) {
+		if (false) {
 			System.out.println("If block");
 		} else {
 			System.out.println("else block");

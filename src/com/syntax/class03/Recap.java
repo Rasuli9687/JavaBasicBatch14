@@ -8,16 +8,18 @@ public class Recap {
 		 * together we can a
 		 * 
 		 */
-		String firstName = "Mina";
-		String lastName = "Henen";
+		String firstName = "Fraidoon";
+		String lastName = "Rasuli";
 		String fullName = firstName + " " + lastName;
 		System.out.println(fullName);
-		int houseNo = 15;
-		int apartmentNo = 5;
-		String streetName = "That street";
-		String city = "NewYork";
+		int houseNo = 2830;
+		
+		String streetName = "Amalfi way";
+		String city = "Lawrenceville";
 		String country = "USA";
-		String fullAddress = houseNo + " " + apartmentNo + " " + streetName + " " + city + " " + country;
+		String state = "Gerogia";
+		int zipcode = 30044;
+		String fullAddress = houseNo + " " + streetName + " " + city + " " + state + " " + zipcode + " " + country;
 		System.out.println(fullAddress);
 		String incompleteAddress = houseNo + city;
 		String step1 = "if we subtract 10 from 5 we get =" + 10; // results in a String
